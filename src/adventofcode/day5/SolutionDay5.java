@@ -12,7 +12,7 @@ public class SolutionDay5 {
 
         var inputValues = Arrays.asList(input.split(",")).stream().mapToInt(Integer::valueOf).toArray();
         System.out.println("Solution 1:");
-        //perfomIntcodeProgram(inputValues, inputValues[1], inputValues[2], 1);
+        perfomIntcodeProgram(inputValues, inputValues[1], inputValues[2], 1);
 
         System.out.println("Solution 2:");
         perfomIntcodeProgram(inputValues, inputValues[1], inputValues[2], 5);
